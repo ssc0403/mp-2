@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import PicturePreview from './components/PicturePreview';
-import { Picture } from "./types.ts";
+import type { Picture } from "./types.ts";
 
 function App() {
   const [pictures, setPictures] = useState<Picture[]>([]);
